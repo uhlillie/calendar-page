@@ -15,17 +15,6 @@
     スケージャル || schedule
   </title>
   <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1.0, user-scalable=no">
- <!-- remove comment to display clock <script type="text/javascript">
-    function getTime(){
-      var t=new Date(),nhour=t.getHours(),nmin=t.getMinutes();
-      if(nmin<=9) nmin="0"+nmin;
-      document.getElementById('clock').innerHTML=""+nhour+":"+nmin+"";
-    }
-    window.onload=function(){
-      getTime();
-      setInterval(getTime,1000);
-    }
-  </script>-->
   <style>
     body {
       width: 100%;
@@ -50,8 +39,7 @@
     }
     .box-item {
       margin: 14px;
-      width: 350px;
-      text-align: left;
+      width: 300px;
     }
     .item-heading {
       height: 55px;
@@ -60,6 +48,7 @@
       font-weight: 500;
       color: #FFFFFF;
       font-size: 1.4em;
+      text-align: center;
     }
     ul {
       background: rgba(42,54,59, 0.6);
@@ -74,25 +63,7 @@
       font-weight: normal;
       list-style: none;
       color: #FFFFFF;
-    }
-    li a, a:link, a:visited, a:focus {
-      color: white;
-      text-decoration: none;
-      cursor: pointer;
-    }
-    li a:hover {
-      color: #F67B97;
-      cursor: pointer;
-      font-weight: 700;
-      text-decoration: none;
-    }
-    #clock {
-      position: fixed;
-      font-family: 'Verdana', sans-serif;
-      bottom: 10px;
-      right: 10px;
-      font-size: .62em;
-      color: #cb7ea4;
+      text-align: left;
     }
   </style>
 </head>
